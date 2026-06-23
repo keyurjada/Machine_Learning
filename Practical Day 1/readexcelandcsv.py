@@ -1,0 +1,11 @@
+import pandas as pd
+winedatac=pd.read_csv('C:/machine learning/wine.csv')
+print(winedatac)
+print(winedatac.head())
+print("shape\n",winedatac.shape)
+print("columns\n",winedatac.columns)
+print("dtypes\n",winedatac.dtypes)
+print("ndim\n",winedatac.ndim)
+print("size\n",winedatac.size)
+#winedatae=pd.read_excel('D:/Winter 2023/BSc DS 4/Programs/wine.xls')
+print('\n')
